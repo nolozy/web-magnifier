@@ -36,7 +36,7 @@ Chrome ウェブストアには公開していないため、フォルダを直�
 
 **ZIP でダウンロード（Git 不要・おすすめ）**
 
-1. このページ上部の緑色の **`< > Code`** ボタンを押し、**Download ZIP** を選びます。
+1. **[こちらをクリックして ZIP をダウンロード](https://github.com/nolozy/web-magnifier/archive/refs/heads/main.zip)** します。
 2. `web-magnifier-main.zip` を展開します。
 3. フォルダを、ずっと置いておける場所（`ドキュメント` など）に移します。
    - **注意:** 読み込んだ後にフォルダを移動・削除すると、拡張機能は動かなくなります。
