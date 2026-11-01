@@ -2,7 +2,7 @@
 
 [日本語](README.ja.md) | **English**
 
-![Web Magnifier](docs/screenshot.png)
+![Web Magnifier](docs/thumbnail.png)
 
 A small Chrome extension (Manifest V3) that keeps any area of a web page magnified in a floating window. Drag over the part you want to watch, such as a minimap in a game video, small print or a chart, and it stays enlarged while you use the rest of the page.
 

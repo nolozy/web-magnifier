@@ -2,7 +2,7 @@
 
 **日本語** | [English](README.md)
 
-![Web Magnifier](docs/screenshot.png)
+![Web Magnifier](docs/thumbnail.png)
 
 Web ページの好きな範囲を、小さなウィンドウに拡大表示し続ける Chrome 拡張機能（Manifest V3）です。ゲーム動画のミニマップ、小さな文字、グラフなど、見ていたい部分をドラッグで囲むと、ページの他の部分を操作している間も拡大したまま表示できます。
 
