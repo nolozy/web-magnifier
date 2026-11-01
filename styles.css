@@ -1,0 +1,76 @@
+/* !important and the maximum z-index keep page CSS from breaking these.
+   Position and size stay out of !important because they are set inline. */
+
+.wm-overlay {
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(0, 0, 0, 0.3) !important;
+  z-index: 2147483647 !important;
+  cursor: crosshair !important;
+  touch-action: none !important;
+}
+
+.wm-selection-box {
+  position: fixed !important;
+  box-sizing: border-box !important;
+  border: 2px dashed #ff4655 !important;
+  background: rgba(255, 70, 85, 0.1) !important;
+  pointer-events: none !important;
+}
+
+.wm-magnifier {
+  position: fixed !important;
+  z-index: 2147483647 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background: #000 !important;
+  /* A ring instead of a border, so the size stays exactly the picture's */
+  box-shadow: 0 0 0 2px #ff4655, 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+  cursor: move !important;
+  touch-action: none !important;
+}
+
+.wm-magnifier:active {
+  cursor: grabbing !important;
+}
+
+.wm-magnifier canvas {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  pointer-events: none !important;
+}
+
+.wm-close-btn {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  width: 24px !important;
+  height: 24px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: #ff4655 !important;
+  color: #fff !important;
+  font: bold 18px/24px sans-serif !important;
+  text-align: center !important;
+  cursor: pointer !important;
+}
+
+.wm-close-btn:hover {
+  background: #ff1f33 !important;
+}
+
+.wm-resize-handle {
+  position: absolute !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 16px !important;
+  height: 16px !important;
+  background: linear-gradient(135deg, transparent 50%, #ff4655 50%) !important;
+  cursor: nwse-resize !important;
+  touch-action: none !important;
+}
