@@ -36,7 +36,7 @@ The extension is not on the Chrome Web Store, so you load the folder directly. I
 
 **Download as ZIP (no Git needed, recommended)**
 
-1. Click the green **`< > Code`** button at the top of this page, then **Download ZIP**.
+1. **[Click here to download the ZIP](https://github.com/nolozy/web-magnifier/archive/refs/heads/main.zip)**.
 2. Unzip `web-magnifier-main.zip`.
 3. Put the folder somewhere permanent (for example in `Documents`).
    - **Note:** if you move or delete the folder after loading it, the extension stops working.
